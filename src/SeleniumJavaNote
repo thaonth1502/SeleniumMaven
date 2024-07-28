@@ -1,7 +1,0 @@
-1. Selenium là 1 bộ kiểm thử tự động (mã nguồn mở) miễn phí cho các ứng dụng
-web trn các trình duy và nền tảng
-- Selenium có 4 thành phần
-    + Selenium Integrated Development Environment (IDE)
-    + Selenium Remote Control (RC)
-    + WebDriver
-    + Selenium Grid
