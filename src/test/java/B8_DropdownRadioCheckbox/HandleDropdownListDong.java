@@ -14,9 +14,12 @@ public class HandleDropdownListDong extends BaseTest {
 
         driver.findElement(By.xpath("//span[normalize-space()='Select a Country']/parent::a")).click();
         sleep(2);
+        //li[normalize-space()='Thailand']
         driver.findElement(By.xpath("(//span[normalize-space()='Select a Country']/parent::a)//following-sibling::div//input")).sendKeys("Vietnam");
         sleep(2);
-        driver.findElement(By.xpath("(//span[normalize-space()='Select a Country']/parent::a)//following-sibling::div//input")).sendKeys(Keys.ENTER);
+        driver.findElement(By.xpath("//li[normalize-space()='Vietnam']")).click();
+
+//        driver.findElement(By.xpath("(//span[normalize-space()='Select a Country']/parent::a)//following-sibling::div//input")).sendKeys(Keys.ENTER);
         sleep(1);
         closeDriver();
 
